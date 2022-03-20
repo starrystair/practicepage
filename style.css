@@ -79,6 +79,7 @@ button {
   background-color: #F9FAF8;
   padding: 0 20%;
   margin-top: 150px;
+  padding-bottom: 70px;
 }
 
 .info.pictures {
@@ -115,7 +116,7 @@ button {
   display: flex;
   flex-direction: column;
   background-color: #E5E7EB;
-  padding: 0 25%;
+  padding: 70px 25%;
 }
 
 .quote.text {
@@ -133,10 +134,45 @@ button {
 
 .call.container {
   display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color:#F9FAF8;
+  padding: 70px 25%;
+}
+
+.call.box {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px;
+  border-radius: 8px;
+}
+
+.call p {
+  color: #F9FAF8;
+}
+
+.call button {
+  border-color: white;
+  border: 2px solid;
+  flex: 0 0 auto;
+  box-shadow: 0 0;
+}
+
+.button.container {
+  margin-left: 50px;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.call.box {
+.footer.container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+}
+
+.footer p {
+  color:#F9FAF8;
 }
